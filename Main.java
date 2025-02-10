@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-      /*  Develop a program that takes the weight (in kilograms) and height (in meters)
+      /* 1-   Develop a program that takes the weight (in kilograms) and height (in meters)
         as input and calculates the BMI, then prints it.
 • Input: Weight (kg) = 70, Height (m) = 1.75
 • Expected Output: BMI = 22.86
@@ -33,7 +33,7 @@ public class Main {
 
 
 //
-//        Write a program that takes the obtained marks and total marks as input and
+//     2-   Write a program that takes the obtained marks and total marks as input and
 //        calculates the percentage, then prints it.
 //• Input: Obtained Marks = 85, Total Marks = 100
 //• Expected Output: Percentage = 85.0%
@@ -55,7 +55,7 @@ public class Main {
         //-----------------------------------------------------------------
 
 //
-//        Create a program that takes an amount in one currency and an exchange rate
+//     3-   Create a program that takes an amount in one currency and an exchange rate
 //        as input, then converts and prints the amount in another currency.
 //• Input: Amount in USD = 100, Exchange Rate (USD to EUR) = 0.85
 //• Expected Output: Amount in EUR = 85.0
@@ -69,14 +69,29 @@ public class Main {
 
         double to_EUR = USD * Exchange_Rate ;
 
-        System.out.print("The amount in EUR : "+ to_EUR + " EUR");
+        System.out.print("The amount in EUR : "+ to_EUR + " EUR");   
+
+ */
+        // another way to solve the exercise 
+        
+         /*
+         
+          System.out.print("please enter the amount you want to converts : ");
+        double Original_price = input.nextDouble();
+
+        System.out.print("please enter the Exchange Rate : ");
+        double Exchange_Rate = input.nextDouble();
+
+        double converted_amount = Original_price * Exchange_Rate ;
+
+        System.out.print("The amount after being converted : "+  converted_amount );
 
         */
 
 
         //-----------------------------------------------------------------
 
-//        Create a program that takes a string as input, calculates its length, and then
+//     4- Create a program that takes a string as input, calculates its length, and then
 //        reverses the string using the StringBuilder class, finally printing both the length and
 //        reversed string.
 //• Input: "Hello, World!"
@@ -96,7 +111,8 @@ StringBuilder string_1 = new StringBuilder();
 
 
         //-----------------------------------------------------------------
-//        Develop a program that takes a sentence as input and extracts a substring from
+        
+//        5- Develop a program that takes a sentence as input and extracts a substring from
 //        it, then prints the extracted substring.
 //• Input: Sentence = "The quick brown fox jumps over the lazy dog", Start Index
 //                = 10, End Index = 20
@@ -114,7 +130,7 @@ String sentence1 = input.nextLine();
 
 //----------------------------------------------------------------------
 
-//        Write a program that takes a sentence and a keyword as input, then check if
+//       6- Write a program that takes a sentence and a keyword as input, then check if
 //        the keyword is present in the sentence and prints the result.
 //• Input: Sentence = "The quick brown fox jumps over the lazy dog", Keyword =
 //                "jumps"
@@ -137,7 +153,7 @@ String sentence1 = input.nextLine();
 
 
 //
-//        Develop a program that takes a sentence and a word to replace as input, then
+//     7-  Develop a program that takes a sentence and a word to replace as input, then
 //        replace all occurrences of the word with another word and prints the modified
 //        sentence.
 //• Input: Sentence = "The quick brown fox jumps over the lazy dog", Word to
@@ -164,7 +180,7 @@ String sentence1 = input.nextLine();
 
 //
 //
-//        Write a program that takes two strings as input and check if they are equal,
+//      8-  Write a program that takes two strings as input and check if they are equal,
 //                ignoring the case, then prints whether they are equal or not.
 //• Input: String 1 = "Hello", String 2 = "hello"
 //• Expected Output: Strings are equal (ignoring case).
